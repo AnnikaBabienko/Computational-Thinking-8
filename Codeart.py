@@ -9,7 +9,7 @@ t.penup()
 t.goto(-80,-100) #This is mostly in the center
 t.pendown()
 t.speed(10)
-t.color("Purple")
+t.color("Purple") #I changed this to purple because the blue did not look good
 for i in range (100):
     t.forward (100)
     t.left (53)
